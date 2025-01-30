@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "c:\Users\Albert\Desktop\ElTiempo6.0copia(Error-preguntasDeMasYFotosNoVan)\main.py", line 11, in <module>
+    main()
+  File "c:\Users\Albert\Desktop\ElTiempo6.0copia(Error-preguntasDeMasYFotosNoVan)\main.py", line 7, in main
+    app = WeatherApp(root)
+          ^^^^^^^^^^^^^^^^
+  File "c:\Users\Albert\Desktop\ElTiempo6.0copia(Error-preguntasDeMasYFotosNoVan)\weather_app.py", line 73, in __init__
+    self.file_menu.add_command(label="Guardar como...", command=self.save_as_file)
+                                                                ^^^^^^^^^^^^^^^^^
+AttributeError: 'WeatherApp' object has no attribute 'save_as_file'. Did you mean: 'save_file'?
+
+at 8/7/24 11:13
